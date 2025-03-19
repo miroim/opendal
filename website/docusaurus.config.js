@@ -149,6 +149,7 @@ const config = {
     require.resolve("docusaurus-lunr-search"),
     // This plugin will download all images to local and rewrite the url in html.
     require.resolve("./plugins/image-ssr-plugin"),
+    require.resolve("./plugins/dynamic-bindings-plugin"),
   ],
 
   themeConfig:
